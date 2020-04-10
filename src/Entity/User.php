@@ -35,6 +35,14 @@ class User implements UserInterface
      */
     private ?string $password = null;
 
+    /**
+     * @return string
+     * @author bernard-ng <ngandubernard@gmail.com>
+     */
+    public function __toString(): string
+    {
+        return $this->getUsername();
+    }
 
     /**
      * @param string $email
@@ -88,7 +96,7 @@ class User implements UserInterface
      */
     public function getUsername(): string
     {
-        return (string) $this->email;
+        return (string)$this->email;
     }
 
     /**
@@ -116,7 +124,7 @@ class User implements UserInterface
      */
     public function getPassword(): string
     {
-        return (string) $this->password;
+        return (string)$this->password;
     }
 
     /**

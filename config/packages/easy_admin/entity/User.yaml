@@ -1,0 +1,10 @@
+easy_admin:
+    entities:
+        Users:
+            class: App\Entity\User
+            disabled_actions: ['new', 'delete']
+            list:
+                fields: ['id', 'email']
+            form:
+                fields:
+                    - {property: 'email'}
