@@ -1,5 +1,6 @@
 {
     "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
         "@symfony/webpack-encore": "^0.28.2",
         "core-js": "^3.0.0",
         "regenerator-runtime": "^0.13.2",
@@ -12,5 +13,13 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
+    },
+    "dependencies": {
+        "animate-sass": "^0.8.2",
+        "bootstrap": "^4.4.1",
+        "boxicons": "^2.0.5",
+        "popper.js": "^1.16.1",
+        "sweetalert2": "^9.10.10",
+        "turbolinks": "^5.2.0"
     }
 }
