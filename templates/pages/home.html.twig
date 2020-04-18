@@ -1,0 +1,179 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block body %}
+    {% include 'sections/main-banner.html.twig' %}
+    {% include 'sections/features-card.html.twig' %}
+    {% include 'sections/services-area.html.twig' %}
+
+    <section class="services-area bg-left-color bg-left-shape bg-f4f6fc ptb-100">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="services-image">
+                    <div class="image">
+                        <img src="assets/img/services-image/service2.png" alt="image">
+                    </div>
+                </div>
+
+                <div class="services-content it-service-content">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="assets/img/icon1.png" alt="image">
+                        </div>
+                        <h2>Cloud Hosting Services</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris.</p>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    Cloud Databases
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    Hybrid Cloud
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    Email Servers
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    Website Hosting
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    File Storage
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    Backup Systems
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="index-without-animation.html#" class="default-btn">
+                            <i class="bx bxs-spreadsheet"></i>
+                            Learn More
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include 'sections/video-presentation-area.html.twig' %}
+    {% include 'sections/features-area.html.twig' %}
+    {% include 'sections/feedback-area.html.twig' %}
+    {% include 'sections/pricing-area.html.twig' %}
+    {% include 'sections/team-area.html.twig' %}
+
+    <section class="our-loving-clients ptb-100 bg-f4f5fe">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Loving Clients</h2>
+            </div>
+
+            <div class="clients-logo-list align-items-center">
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/1.png" alt="image">
+                    </a>
+                </div>
+
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/2.png" alt="image">
+                    </a>
+                </div>
+
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/3.png" alt="image">
+                    </a>
+                </div>
+
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/4.png" alt="image">
+                    </a>
+                </div>
+
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/5.png" alt="image">
+                    </a>
+                </div>
+
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/6.png" alt="image">
+                    </a>
+                </div>
+
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/7.png" alt="image">
+                    </a>
+                </div>
+
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/8.png" alt="image">
+                    </a>
+                </div>
+
+                <div class="single-clients-logo">
+                    <a href="index-without-animation.html#">
+                        <img src="assets/img/clients-image/9.png" alt="image">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include 'sections/faq-area.html.twig' %}
+
+    <div class="subscribe-content border-radius-0">
+        <h2>We always try to be the best support to you as possible</h2>
+
+        <form class="newsletter-form" data-toggle="validator">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-8">
+                    <input type="email" class="input-newsletter" placeholder="hello@spacle.com" name="EMAIL" required=""
+                           autocomplete="off">
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <button type="submit" class="disabled" style="pointer-events: all; cursor: pointer;"><i
+                                class="bx bxs-hot"></i> Subscribe Now
+                    </button>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                    <div id="validator-newsletter" class="form-result"></div>
+                </div>
+            </div>
+        </form>
+
+        <div class="shape14"><img src="assets/img/shape/13.png" alt="image"></div>
+        <div class="shape15"><img src="assets/img/shape/14.png" alt="image"></div>
+        <div class="shape16"><img src="assets/img/shape/15.png" alt="image"></div>
+        <div class="shape17"><img src="assets/img/shape/16.png" alt="image"></div>
+        <div class="shape18"><img src="assets/img/shape/17.png" alt="image"></div>
+    </div>
+
+    {% include 'sections/blog-area.html.twig' %}
+{% endblock %}

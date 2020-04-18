@@ -171,7 +171,7 @@ Partner Area CSS
 }
 
 .banner-image.bg-2 {
-  background-image: url(/img/banner-img2.jpg);
+  background-image: url(/images/login-bg.jpg);
 }
 
 .banner-image.bg-3 {
@@ -179,7 +179,7 @@ Partner Area CSS
 }
 
 .banner-image.mbanner-bg-one {
-  background-image: url(/img/banner-img2.jpg);
+  background-image: url(/images/login-bg.jpg);
 }
 
 .banner-image.mbanner-bg-one .animate-banner-image {
@@ -230,7 +230,7 @@ Partner Area CSS
 }
 
 .banner-img.bg-2 {
-  background-image: url(/img/banner-img2.jpg);
+  background-image: url(/images/login-bg.jpg);
 }
 
 .banner-img.bg-3 {
@@ -4925,7 +4925,11 @@ SaaS Home Page CSS
 /* Saas banner */
 .saas-banner {
   height: 840px;
-  background: var(--secondary-color);
+  background: url('/images/login-bg.jpg') rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   position: relative;
   z-index: 1;
 }
